@@ -333,6 +333,19 @@ module.exports = {
       projectUrl: "https://github.com/microsoft/vscode-codicons",
       license: "CC BY 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      id: "im",
+      name: "IcoMoon Free",
+      contents: [
+        {
+          files: path.resolve(__dirname, "icomoon-free/SVG/*.svg"),
+          formatter: name => `Im${name.slice(3)}`
+        }
+      ],
+      projectUrl: "https://github.com/Keyamoon/IcoMoon-Free",
+      license: "CC BY 4.0 License",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
     }
   ]
 };

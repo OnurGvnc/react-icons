@@ -58,6 +58,7 @@ Icon Library|License|Version
 [css.gg](https://github.com/astrit/css.gg)|[MIT](https://opensource.org/licenses/MIT)|2.0.0
 [BoxIcons](https://github.com/atisawd/boxicons)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|2.0.5
 [VS Code Icons](https://github.com/microsoft/vscode-codicons)|[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)|0.0.1
+[IcoMoon Free](https://github.com/Keyamoon/IcoMoon-Free)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|1.0.0
 
 You can add more icons by submitting pull requests or creating issues.
 
