@@ -3,7 +3,6 @@
   "description": "",
   "scripts": {
     "start": "next",
-    "prebuild":"cd ../react-icons && yarn install && yarn build",
     "build": "next build",
     "export": "rm -rf .next out && next build && next export",
     "serve": "next start"
@@ -27,7 +26,7 @@
     "prism-react-renderer": "^1.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-icons": "link:../react-scripts",
+    "@zedflowlab/react-icons": "^3.10.2",
     "tiny-skeleton-loader-react": "^1.1.0"
   },
   "devDependencies": {

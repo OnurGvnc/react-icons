@@ -1,6 +1,9 @@
 {
-  "name": "react-icons",
-  "version": "3.10.1-snapshot.0",
+  "name": "@zedflowlab/react-icons",
+  "version": "3.10.2",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@zedflowlab"
+  },
   "description": "SVG React icons of popular icon packs using ES6 imports",
   "author": "Goran Gajic",
   "contributors": [
@@ -12,10 +15,8 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:react-icons/react-icons.git"
-  },
-  "bugs": {
-    "url": "https://github.com/react-icons/react-icons/issues"
+    "url": "git+https://github.com/zedflowlab/npm-registry.git",
+    "directory": "/packages/packagename"
   },
   "homepage": "https://github.com/react-icons/react-icons#readme",
   "peerDependencies": {
@@ -54,7 +55,8 @@
     "build": "node scripts/build.js && yarn build-mjs && yarn build-cjs",
     "prebuild": "node ../../node_modules/copy/bin/cli.js ../../README.md ./packages/react-icons && rimraf ./lib",
     "build-mjs": "tsc && babel ./lib/esm -d ./lib/esm",
-    "build-cjs": "tsc -p ./tsconfig.commonjs.json"
+    "build-cjs": "tsc -p ./tsconfig.commonjs.json",
+    "pub": "npm version patch --force && npm publish"
   },
   "dependencies": {
     "camelcase": "^5.0.0"
