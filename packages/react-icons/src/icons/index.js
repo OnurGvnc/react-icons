@@ -320,6 +320,19 @@ module.exports = {
       projectUrl: "https://github.com/atisawd/boxicons",
       license: "CC BY 4.0 License",
       licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      id: "vsc",
+      name: "VS Code Icons",
+      contents: [
+        {
+          files: path.resolve(__dirname, "vscode-icons/src/icons/*.svg"),
+          formatter: name => `Vsc${name}`
+        }
+      ],
+      projectUrl: "https://github.com/microsoft/vscode-codicons",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
     }
   ]
 };
