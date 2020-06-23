@@ -46,3 +46,6 @@
 [submodule "packages/react-icons/src/icons/vscode-codicons"]
 	path = packages/react-icons/src/icons/vscode-codicons
 	url = https://github.com/microsoft/vscode-codicons.git
+[submodule "packages/react-icons/src/icons/heroicons"]
+	path = packages/react-icons/src/icons/heroicons
+	url = https://github.com/refactoringui/heroicons

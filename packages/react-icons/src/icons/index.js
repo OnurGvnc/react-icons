@@ -346,6 +346,23 @@ module.exports = {
       projectUrl: "https://github.com/Keyamoon/IcoMoon-Free",
       license: "CC BY 4.0 License",
       licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      id: "hi",
+      name: "Heroicons",
+      contents: [
+        {
+          files: path.resolve(__dirname, "heroicons/solid/*.svg"),
+          formatter: name => `Hi${name}`
+        },
+        {
+          files: path.resolve(__dirname, "heroicons/outline/*.svg"),
+          formatter: name => `HiOutline${name}`
+        }
+      ],
+      projectUrl: "https://github.com/refactoringui/heroicons",
+      license: "MIT",
+      licenseUrl: "https://opensource.org/licenses/MIT"
     }
   ]
 };
