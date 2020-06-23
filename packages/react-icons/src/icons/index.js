@@ -326,7 +326,7 @@ module.exports = {
       name: "VS Code Icons",
       contents: [
         {
-          files: path.resolve(__dirname, "vscode-icons/src/icons/*.svg"),
+          files: path.resolve(__dirname, "vscode-codicons/src/icons/*.svg"),
           formatter: name => `Vsc${name}`
         }
       ],
