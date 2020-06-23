@@ -3,6 +3,7 @@
   "description": "",
   "scripts": {
     "start": "next",
+    "prebuild":"cd ../react-icons && yarn install && yarn build",
     "build": "next build",
     "export": "rm -rf .next out && next build && next export",
     "serve": "next start"
