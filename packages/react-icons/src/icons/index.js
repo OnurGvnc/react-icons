@@ -307,6 +307,19 @@ module.exports = {
       projectUrl: "https://github.com/astrit/css.gg",
       license: "MIT",
       licenseUrl: "https://opensource.org/licenses/MIT"
+    },
+    {
+      id: "bi",
+      name: "BoxIcons",
+      contents: [
+        {
+          files: path.resolve(__dirname, "boxicons/svg/regular/*.svg"),
+          formatter: name => `Bi${name.replace("Bx", "")}`
+        }
+      ],
+      projectUrl: "https://github.com/atisawd/boxicons",
+      license: "CC BY 4.0 License",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0/"
     }
   ]
 };
